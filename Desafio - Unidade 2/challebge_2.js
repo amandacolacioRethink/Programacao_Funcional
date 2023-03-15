@@ -9,8 +9,8 @@ const carrinho = [
 // Um vai ser filter, outro map e outro reduce
 
 // 1. Selecionar apenas os elementos que fragil = true
-const frageis = carrinho.filter((item) => item.fragil === true);
-//console.log(frageis);
+const fragile = carrinho.filter((item) => item.fragil === true);
+//console.log(fragile);
 
 // 2. Selecionar a qtde e preço --> total de cada elemento
 const total = carrinho.map((item) => item.qtde * item.preco);

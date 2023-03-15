@@ -15,8 +15,8 @@ const numbers = (numbers) => numbers.qtde * numbers.preco;
 console.log(carrinho.map(numbers));
 
 //COM FILTER
-const qtdeMaiorQueZero = carrinho.filter((item) => item.qtde > 1);
-console.log(qtdeMaiorQueZero);
+const greaterThanZero = carrinho.filter((item) => item.qtde > 1);
+console.log(greaterThanZero);
 
 //COM REDUCE
 const getTotal = carrinho
